@@ -16,7 +16,7 @@ import java.sql.SQLException;
  */
 
 public class koneksi {
-
+//testing
     /**
      * @param args the command line arguments
      */
