@@ -124,7 +124,7 @@ public class admin extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
         jTextField3 = new javax.swing.JTextField();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        jLabel21 = new javax.swing.JLabel();
         pnlManger = new javax.swing.JPanel();
         txt_Nama = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
@@ -179,7 +179,6 @@ public class admin extends javax.swing.JFrame {
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -250,7 +249,7 @@ public class admin extends javax.swing.JFrame {
             }
         });
         jPanel2.add(btnWages);
-        btnWages.setBounds(10, 290, 140, 23);
+        btnWages.setBounds(10, 290, 140, 25);
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 649));
 
@@ -334,7 +333,9 @@ public class admin extends javax.swing.JFrame {
         );
 
         pnlDasboard.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 81, -1, -1));
-        pnlDasboard.add(jDateChooser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 280, -1, -1));
+
+        jLabel21.setText("jLabel21");
+        pnlDasboard.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 260, -1, -1));
 
         pnlCont.add(pnlDasboard, "card2");
 
@@ -541,7 +542,6 @@ public class admin extends javax.swing.JFrame {
 
         jLabel20.setText("Tanggal");
         pnlWages.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(109, 138, -1, -1));
-        pnlWages.add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 132, -1, -1));
 
         pnlCont.add(pnlWages, "card7");
 
@@ -772,8 +772,6 @@ kode_unik();
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
-    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -787,6 +785,7 @@ kode_unik();
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
